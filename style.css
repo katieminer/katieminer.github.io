@@ -802,7 +802,7 @@ details.course-desc-details summary h4 {
 }
 
 details.course-desc-details summary::after {
-  content: '▾';
+  content: '▸';
   font-size: 0.85rem;
   color: var(--accent);
   transition: transform 0.2s;
@@ -810,7 +810,7 @@ details.course-desc-details summary::after {
 }
 
 details.course-desc-details[open] summary::after {
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 
 .course-desc-text {
@@ -1033,6 +1033,10 @@ footer {
 
   .quote-section {
     padding: 1.5rem 1rem;
+  }
+
+  .teaching-page h1 {
+    text-align: center;
   }
 }
 

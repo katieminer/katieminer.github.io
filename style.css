@@ -1035,6 +1035,11 @@ footer {
     justify-content: center;
   }
 
+  nav ul {
+    width: 100%;
+    justify-content: center;
+  }
+
   .quote-section {
     padding: 1.5rem 1rem;
   }

@@ -935,7 +935,7 @@ details.course-desc-details[open] summary::after {
 }
 
 .quote-btn {
-  background: var(--accent-dark);
+  background: #2f5f80;
   color: white;
   border: none;
   padding: 0.65rem 1.75rem;
@@ -943,6 +943,7 @@ details.course-desc-details[open] summary::after {
   align-self: center;
   font-family: 'Lato', sans-serif;
   font-size: 0.8rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   border-radius: 20px;
@@ -951,7 +952,7 @@ details.course-desc-details[open] summary::after {
 }
 
 .quote-btn:hover {
-  background: var(--accent-dark);
+  background: #1e4a63;
 }
 
 /* ============================================

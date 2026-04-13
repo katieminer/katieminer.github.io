@@ -935,7 +935,7 @@ details.course-desc-details[open] summary::after {
 }
 
 .quote-btn {
-  background: var(--accent);
+  background: var(--accent-dark);
   color: white;
   border: none;
   padding: 0.65rem 1.75rem;

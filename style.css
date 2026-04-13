@@ -8,22 +8,6 @@
   padding: 0;
 }
 
-.skip-link {
-  position: absolute;
-  top: -100%;
-  left: 1rem;
-  background: var(--accent);
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 0 0 6px 6px;
-  font-size: 0.9rem;
-  font-weight: 600;
-  text-decoration: none;
-  z-index: 9999;
-}
-.skip-link:focus {
-  top: 0;
-}
 
 :root {
   --bg: #f6f9fc;

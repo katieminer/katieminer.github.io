@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Katherine Miner — Academic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>if (localStorage.getItem('darkMode') === 'true') document.documentElement.classList.add('dark');</script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-name" href="index.html">Katherine Miner</a>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="katherineminercv.pdf" target="_blank">CV</a></li>
+      <li><a href="teaching.html">Teaching</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN -->
+  <div class="page-wrapper">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>Katherine Miner <span style="font-size:1rem; font-weight:400; color:var(--muted);">(she/her)</span></h1>
+          <p class="position">
+            PhD Student &nbsp;·&nbsp;
+            <span class="institution">University of Chicago</span>
+          </p>
+          <p>
+            I am a PhD student in the
+            <a href="https://cam.uchicago.edu" target="_blank">Committee on Computational and Applied Math</a>
+            at the University of Chicago, where I am advised by
+            <a href="https://stephenslab.uchicago.edu/" target="_blank">Matthew Stephens</a>.
+            Prior to this, I earned a B.S. in Mathematics (with minors in Computer Science and Political Science)
+            from MIT in 2024. I am deeply grateful for the mentorship I received during my time there,
+            particularly from <a href="https://math.mit.edu/~dunkel/" target="_blank">Jörn Dunkel</a>,
+            Jorge Reyes, <a href="https://profiles.imperial.ac.uk/nick.jones" target="_blank">Nick Jones</a>,
+            and <a href="https://cee.mit.edu/people_individual/lydia-bourouiba/" target="_blank">Lydia Bourouiba</a>.
+          </p>
+          <div class="hero-links">
+            <a href="katherineminercv.pdf" target="_blank">CV</a>
+            <a href="mailto:keminer@uchicago.edu">Email</a>
+            <a href="https://github.com/katieminer" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/katherine-miner-chicago/" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+        <img src="KatieMinerGradHeadshot.png" alt="Katherine Miner" class="hero-photo" />
+      </div>
+    </div>
+
+    <!-- RESEARCH INTERESTS -->
+    <section id="research">
+      <h2 class="section-heading">Research</h2>
+      <p>My primary research focuses on developing novel statistical methods to understand complex genomic data, particularly through models that detect causal genetic variants. I am also interested in spatial population genetics, as well as broader applications of mathematical modeling in epidemiology and political science.</p>
+    </section>
+
+    <!-- TEACHING -->
+    <section id="teaching-blurb">
+      <h2 class="section-heading">Teaching</h2>
+      <p>
+        I am currently a TA for <a href="https://mathematics.uchicago.edu/people/profile/stephen-yearwood/" target="_blank">Stephen Yearwood</a>'s
+        MATH 23500: Markov Chains, Martingales and Brownian Motion at UChicago. I will be an instructor for MATH 131 in the Autumn of 2026.
+        <span style="display:block; margin-top:0.6rem;">Students are always welcome to reach out via <a href="mailto:keminer@uchicago.edu">email</a>.<br />
+        For more, see my <a href="teaching.html">teaching page</a>.</span>
+      </p>
+    </section>
+
+    <!-- OTHER -->
+    <section id="other">
+      <h2 class="section-heading">Other</h2>
+      <p>Outside of research and teaching, you can often find me:</p>
+      <ul>
+        <li>advocating for my peers as a CAM Student Representative and <a href="https://physicalsciences.uchicago.edu/current-students/professional-leadership-development/dsac/" target="_blank">PSD Dean's Student Advisory Committee</a> member</li>
+        <li>singing in a graduate-school a cappella group</li>
+        <li>enjoying everything Chicago has to offer!</li>
+      </ul>
+    </section>
+
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Katherine Miner &nbsp;·&nbsp; <a href="mailto:keminer@uchicago.edu">keminer@uchicago.edu</a></p>
+  </footer>
+
+  <button class="dark-toggle" id="darkToggle" title="Toggle dark mode">☽</button>
+
+  <script>
+    const toggle = document.getElementById('darkToggle');
+    if (localStorage.getItem('darkMode') === 'true') toggle.textContent = '☀';
+    toggle.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.toggle('dark');
+      toggle.textContent = isDark ? '☀' : '☽';
+      localStorage.setItem('darkMode', isDark);
+    });
+  </script>
+
+</body>
+</html>

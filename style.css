@@ -65,8 +65,8 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Dot grid — home page only */
-body:not(.teaching-page)::before {
+/* Dot grid — all pages */
+body::before {
   content: '';
   position: fixed;
   inset: 0;
@@ -833,7 +833,7 @@ details.course-desc-details[open] summary::after {
 }
 
 .eval-pending {
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   color: var(--muted);
   padding-top: 0.6rem;
   font-style: italic;

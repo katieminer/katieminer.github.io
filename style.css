@@ -832,6 +832,13 @@ details.course-desc-details[open] summary::after {
   color: var(--muted);
 }
 
+.eval-pending {
+  font-size: 0.95rem;
+  color: var(--muted);
+  padding-top: 0.6rem;
+  font-style: italic;
+}
+
 .eval-scale-note {
   font-size: 0.8rem;
   color: var(--muted);
